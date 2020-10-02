@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html style="position: fixed; top: 0; bottom: 0; left: 0; right: 0;">
+    <head>
+        <title>Projects</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+            .carousel-inner > .carousel-item > img { 
+                height: 89vh; /*fits image to screen*/
+            }
+
+            .nav-link {
+                color: #ffffff; 
+            }
+
+            .carousel-inner > .carousel-item > .carousel-caption {
+                color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body style="position: relative; top: 0; bottom: 0; left: 0; right: 0;">
+
+        <!-- nav bar-->
+        <div class="container.fluid">
+            <nav class="navbar navbar-expand-sm bg-dark">
+                <ul class="navbar-nav">
+                    <!-- link to home page -->
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="mypage_bootstrap.html">Home</a> 
+                    </li>
+                    <!--link to projects-->
+                    <li>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+                <!--link to github profile-->
+                <ul class="navbar-nav ml-auto">
+                    <a class="navbar-brand" href="https://github.com/CODYJEWELLWEAVER" target="_blank">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="My Github" style="width: 40px; background-color: transparent;">
+                    </a>    
+                </ul>
+            </nav> 
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+            <div class="carousel-item active img-fluid" >
+                <img class="d-block w-100" src="https://ssmscdn.yp.ca/image/resize/d03ac5d7-f6e8-4b6c-8b2c-d5d96ccd0f27/ypui-d-mp-pic-gal-lg/wt-computer-products-inc-3.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>HDD Activity Monitor</h4>
+                    <p>Technologies Used: C#. Monitors Read/Write Activity of HDD. </p>
+                </div>   
+            </div>
+            <div class="carousel-item img-fluid">
+                <img class="d-block w-100" src="https://imaginesports.com/wp-content/uploads/2018/07/Historic-Baseball-Statistics-and-How-to-Read-Them.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Baseball Data Science Project</h4>
+                    <p>
+                        Technologies Used: Python, Jupyter Notebook, Matplotlib. Analyized MLB data from 1962-2016.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item img-fluid">
+                <img class="d-block w-100" src="https://images.idgesg.net/images/article/2017/10/thinkstockphotos-499123970-100738770-large.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Password Manager</h5>
+                    <p>
+                        Technologies Used: Python. Stores and Generates Passwords.
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--footer-->
+        <div class="container.fluid" style="min-width: 100%; position: relative; bottom: 0; height: 11vh">
+            <div class="page-footer bg-dark" style="text-align: center;">
+                <a class="li-ic" href="https://www.linkedin.com/in/cody-weaver-7087a6191/" target="_blank">
+                    <img src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png" alt="linkedin" style="width: 40px; background-color: transparent; margin-top: 5px; margin-bottom: 5px;">
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

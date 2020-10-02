@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+    <head>
+        <title>Add Interest</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .nav-link {
+                color: #ffffff;
+            }
+        </style>
+    </head>
+
+    <body style="height: 100%;">
+        <!--nav bar-->
+        <div class="container.fluid">
+            <nav class="navbar navbar-expand-sm bg-dark">
+                <ul class="navbar-nav">
+                    <!-- link to home page -->
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="mypage_bootstrap.html">Home</a> 
+                    </li>
+                    <!--link to projects-->
+                    <li>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+                <!--link to github profile-->
+                <ul class="navbar-nav ml-auto">
+                    <a class="navbar-brand" href="https://github.com/CODYJEWELLWEAVER" target="_blank">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="My Github" style="width: 40px; background-color: transparent;">
+                    </a>    
+                </ul>
+            </nav> 
+        </div>
+
+        <div class="container">
+            <div class="h1" align="center">Add New Interest</div>
+
+            <form>
+
+                <div class="form-group">
+                  <label for="interestName">Email address</label>
+                  <input type="text" class="form-control" id="interestName" placeholder="Name">
+                </div>
+        
+                <div class="form-group">
+                  <label for="interestDescription">Enter Description</label>
+                  <textarea class="form-control" id="interestDescription" rows="6" placeholder="Interest Description"></textarea>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="interestImage">Upload Image:</label>
+                            <input type="file" class="form-control-file" id="interestImage">
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <label>Select # of Tweets to Display:</label>
+                        <select class="form-control">
+                            <option># of Tweets</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label>On a scale from 1-5, how interested in this are you?</label>
+
+                        <br>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">3</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                            <label class="form-check-label" for="inlineRadio4">4</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                            <label class="form-check-label" for="inlineRadio5">5</label>
+                          </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label>Login to Finish Submitting</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="col-6">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary" formaction="mypage_bootstrap.html">Submit</button>
+                    </div>
+
+                </div>
+
+              </form>
+        </div>
+
+        <!--footer-->
+        <div class="container.fluid" style="min-width: 100%; margin: 0px 0px; padding: 0px 0px; position: absolute; bottom: 0;">
+            <div class="page-footer bg-dark" style="text-align: center;">
+                <a class="li-ic" href="https://www.linkedin.com/in/cody-weaver-7087a6191/" target="_blank">
+                    <img src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png" alt="linkedin" style="width: 40px; background-color: transparent; margin-top: 5px; margin-bottom: 5px;">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
