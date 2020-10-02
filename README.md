@@ -1,2 +1,0 @@
-# CODYJEWELLWEAVER.github.io
-HW1 Site
